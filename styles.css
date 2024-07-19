@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px; /* Отступы между карточками */
+    padding: 30px; /* Внутренний отступ контейнера */
+}
+
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: #EEE8AA;
+    border-radius: 60px;
+    transition: background-color 1s ease;
+}
+
+.card:hover {
+    background-color: #FFDAB9;
+}
+
+h1:hover {
+    color: #00CED1;
+    font-size: 3em;
+    transition: font-size 1s ease;
+}
+
+.photo {
+    height: 30%;
+    padding: 40px;
+}
+
+.info {
+    padding: 40px;
+    height: 40%;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    left: 0;
+    border-radius: 20px;
+    transition: transform 0.3s; /* Плавный переход для эффекта увеличения */
+}
+
+.email:hover {
+    color: #4169E1;
+}
+
+/* Эффект увеличения изображения при наведении курсора */
+.card:hover img {
+    transform: scale(1.1); /* Увеличение изображения */
+}
+
+.city:hover {
+    font-size: 1.8em;
+    transition: font-size 1s ease;
+}
+.date:hover {
+    color: #FF00FF;
+}
